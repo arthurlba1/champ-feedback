@@ -1,6 +1,8 @@
 from django.urls import path
-from .views import index 
+from rest_framework import routers 
+from .views import champViewSet
 
-urlpatterns = [
-    path('feedbackChamp/', index)
-]
+router = routers.DefaultRouter()
+router.register('feedbackChamp', champViewSet)
+
+urlpatterns = router.urls
