@@ -41,6 +41,9 @@ INSTALLED_APPS = [
     # Implemented apps
     'feedbackChamp',
 
+    # Installed apps
+    'rest_framework',
+
 ]
 
 MIDDLEWARE = [
