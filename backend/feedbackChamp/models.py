@@ -8,5 +8,8 @@ class champs(models.Model):
     rating = models.IntegerField(default=1, validators=[MinValueValidator(1), MaxValueValidator(5)])
     comment = models.TextField(max_length=300)
 
+    def __str__(self):
+        return self.name
+
     class Meta:
         ordering = ['name']
