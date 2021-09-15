@@ -1,15 +1,12 @@
 <template>
     <div class="navbar-container">
-        <h1>{{msg}}</h1>
+        <label>Feedback</label>
     </div>
 </template>
 
 <script>
 export default {
     name: 'NavBar',
-    props: {
-        msg: String
-    }
 }
 </script>
 
@@ -25,11 +22,13 @@ export default {
     transition: 0.3s;
     left: -80px;
     padding: 15px;
-    width: 12vh;
+    width: 15vh;
+    height: 100%;
     text-decoration: none;
     font-size: 20px;
     color: white;
-    background-color:#111111;
+    background-color:#D0A85C;
+    font-family: Helvetica;
 }
 
 .navbar-container:hover {
