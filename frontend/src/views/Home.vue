@@ -1,6 +1,12 @@
 <template>
     <div id=home-container>
         <NavBar/>
+        <div>
+            <h1>About us</h1>
+            <p>Project made to learn two great frameworks that are very used, vue, which was used for the project's
+                frontend, and django, used in the project's backend along with its database, dbsqlite3. 
+                The project idea is a web page to view and send feedback on league of legends champions.</p>
+        </div>
         <div id="home-background-gradient"/>     
         <div id="image-home"/>
         <div id="image-effect-right"/>
@@ -20,6 +26,25 @@ export default {
 </script>
 
 <style>
+    h1 {
+        position: absolute;
+        width: 25%;
+        right: 20%;
+        top: 22%;
+        font-size: 10vh;
+        text-align: left;
+        color: #95b8e5;
+    }
+    p {
+        position: absolute;
+        width: 25%;
+        right: 20%;
+        top: 32%;
+        font-size: 120%;
+        text-align: left;
+        padding-top: 3vh;
+        color: #599df7;
+    }
     #home-background-gradient{
         height: 100vh;
         background-image: linear-gradient(to right top, #181037, #18153e, #181b45, #18204c, #162653, #152a59, #142d5f, #123165, #11346c, #103873, #0e3b7a, #0c3f81);
