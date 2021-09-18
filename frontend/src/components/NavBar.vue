@@ -19,20 +19,22 @@ export default {
 
 .navbar-container {
     position: absolute;
+    z-index: 1;
     transition: 0.3s;
-    left: -80px;
+    left: -7.5vh;
     padding: 15px;
     width: 15vh;
     height: 100%;
     text-decoration: none;
     font-size: 20px;
     color: white;
-    background-color:#D0A85C;
+    background-color:  rgba(37, 37, 37, 0.829);
     font-family: Helvetica;
 }
 
 .navbar-container:hover {
-    left: 0;
+    left: 0vh;
+    background-color: #1b1b1bb9;
 }
 
 
