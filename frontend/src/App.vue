@@ -1,18 +1,14 @@
 <template>
   <div id="app">
-    <NavBar/>
-    <GetFeedback/>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import NavBar from './components/NavBar.vue'
-import GetFeedback from './components/GetFeedback.vue'
 export default {
   name: 'App',
   components: {
-    NavBar,
-    GetFeedback,
+    
   },
   }
 </script>
